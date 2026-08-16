@@ -1,0 +1,28 @@
+# Secrets — never commit real credentials
+.env
+
+# Local data (shapefiles, exports, source extracts)
+data/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.gdb/
+*.csv
+*.geojson
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
